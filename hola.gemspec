@@ -1,7 +1,8 @@
 Gem::Specification.new do |s|
-  s.name               = "hola"
-  s.version            = "0.0.1"
+  s.name               = "hola_hunt"
+  s.version            = "0.0.3"
   s.default_executable = "hola"
+  s.executables       << "hola"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nick Quaranto"]
